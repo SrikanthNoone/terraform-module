@@ -26,3 +26,6 @@ variable "internet-gateway-name" {
     type = string
     default = "igw"  
 }
+variable "aws_vpc" {
+  default = "aws_vpc"
+}
