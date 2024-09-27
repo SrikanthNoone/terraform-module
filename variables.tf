@@ -8,7 +8,7 @@ variable "vpc-name" {
 }
 variable "public-subnet-name" {
     type = string
-    default = "public-subnte"    
+    default = "public-subnet"    
 }
 variable "private-subnet-name" {
     type = string
